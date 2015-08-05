@@ -22,11 +22,11 @@ int sides=5;
 		// 5. Make a variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6.
 int angle=360/2;
 		// 7. Do steps #2 to #11, 200 times. When this is done you should see a pentagon.
-for (int i = 0; i < 200; i++) {
+for (int i = 0; i < 1000; i++) {
 	f.setRandomPenColor();
 
 			// 2. Move the robot 200 pixels
-	f.move(i);
+	f.move(500);
 			// 10. Make the robot move "i" pixels instead of 200 (don’t need new line of code for this, just change previous one)
 	f.hide();
 			// 6. Turn the robot the amount in your angle variable
